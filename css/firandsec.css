@@ -1,0 +1,72 @@
+
+  .first{width:1024px;
+         height:768px;
+		 background-color: #00FFFF;
+		 padding-top:50px; 
+		}
+ .first_1{width:500px;
+         height:400px;
+		 background-color: chartreuse;
+		 margin-right: auto;
+		 margin-left: auto;
+		 margin-top:50px; 
+		 }
+ .first_2{
+	/* margin-top:50px;
+	 margin-right: auto;
+	 margin-left: auto; 
+	 width:100px;
+	 height:50px; */
+	 background-color: coral;
+	 position: absolute;
+    top:0 ;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    line-height: 50px; 
+    width: 100px;
+    height: 50px;
+ 
+	 }
+.first_2 p{      
+        font-size:20pt;
+		font-family: "arial narrow";
+		font-weight: bold;
+		/* text-align: center;
+		margin:0 auto;
+		 */
+		  position: relative;
+    margin:  auto; 
+		 
+   }
+        /* 第二个页面的css */
+		
+.se_00{width:1024px;
+       height:768px;
+       background-color: #FF7F50;
+	   padding-top:200px;
+	   }
+.se_01{width:250px;
+        height:100px;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #7FFF00;
+		 
+		 
+	   }	
+
+.se_02{width:250px;
+        height:100px;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: aqua ;
+		margin-top: 50px;}	
+		
+.se_03{width:250px;
+        height:100px;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: blue;
+		margin-top: 50px;}			
