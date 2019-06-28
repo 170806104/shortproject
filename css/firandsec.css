@@ -1,8 +1,9 @@
-
+body{margin:0;} 
   .first{width:1024px;
          height:768px;
 		 background-color: #00FFFF;
 		 padding-top:50px; 
+		 margin:0 auto;
 		}
  .first_1{width:500px;
          height:400px;
@@ -47,6 +48,7 @@
        height:768px;
        background-color: #FF7F50;
 	   padding-top:200px;
+	    margin:0 auto;
 	   }
 .se_01{width:250px;
         height:100px;
@@ -70,3 +72,19 @@
 		margin-right: auto;
 		background-color: blue;
 		margin-top: 50px;}			
+/*  操作说明的css */
+ 
+.caozuo{
+ width:1024px;
+height:768px;
+background-color: blanchedalmond;
+ margin:0 auto;
+	 
+}
+.awz{
+	
+width:500px;
+height:500px;
+background-color: #F0F8FF;
+margin:0 auto;
+}
