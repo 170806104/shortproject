@@ -1,0 +1,27 @@
+/*  操作说明的css */
+ 
+.caozuo{
+ width:1024px;
+height:768px;
+background-color: blanchedalmond;
+ margin:0 auto;
+ background-image:url(../img/53d99e91105d4.jpg);
+ background-position: right;
+ background-repeat: no-repeat;
+ padding-top:100px;
+	 
+}
+.awz{
+width:400px;
+height:300px;
+background-color: #F0F8FF;
+text-align: center;
+padding-top:100px;
+margin:0 auto;
+}
+ 
+ p{   font-size:16px;
+	  line-height:30px;
+	  color: deeppink;
+ }
+ 

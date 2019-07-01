@@ -1,36 +1,32 @@
-body{margin:0;} 
+ 
   .first{width:1024px;
          height:768px;
 		 background-color: #00FFFF;
-		 padding-top:50px; 
+		 padding-top:60px; 
 		 margin:0 auto;
+		 background-image:url(../img/back.jpg);
+		 background-position:right;
+		 background-size: cover;
+		  background-repeat: no-repeat;
+		 
+		 
 		}
  .first_1{width:500px;
-         height:400px;
-		 background-color: chartreuse;
+         height:300px;
 		 margin-right: auto;
 		 margin-left: auto;
-		 margin-top:50px; 
+		 background-image:url(../img/back1.png);
+		/* margin-top:50px; */
 		 }
- .first_2{
-	/* margin-top:50px;
-	 margin-right: auto;
-	 margin-left: auto; 
-	 width:100px;
-	 height:50px; */
-	 background-color: coral;
-	 position: absolute;
-    top:0 ;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    text-align: center;
-    line-height: 50px; 
-    width: 100px;
-    height: 50px;
- 
-	 }
+ .first_2 {width:250px;
+         height:100px;
+ 		margin-left: auto;
+ 		margin-right: auto;
+ 		/* background-color: aqua ; */
+ 		margin-top:-50px;
+ 		background-image:url(../img/back3.png);
+ 		text-align: center;
+ 		 }	
 .first_2 p{      
         font-size:20pt;
 		font-family: "arial narrow";
@@ -49,13 +45,19 @@ body{margin:0;}
        background-color: #FF7F50;
 	   padding-top:200px;
 	    margin:0 auto;
+		background-image:url(../img/back2.jpg);
+		 background-position:right;
+		background-size: cover;
+		 background-repeat: no-repeat;
+		
 	   }
 .se_01{width:250px;
         height:100px;
 		margin-left: auto;
 		margin-right: auto;
-		background-color: #7FFF00;
-		 
+		/* background-color: #7FFF00; */
+		background-image:url(../img/back3.png);
+		text-align: center; 
 		 
 	   }	
 
@@ -63,28 +65,29 @@ body{margin:0;}
         height:100px;
 		margin-left: auto;
 		margin-right: auto;
-		background-color: aqua ;
-		margin-top: 50px;}	
+		/* background-color: aqua ; */
+		margin-top: 50px;
+		background-image:url(../img/back3.png);
+		text-align: center;
+		 }	
 		
 .se_03{width:250px;
         height:100px;
 		margin-left: auto;
 		margin-right: auto;
-		background-color: blue;
-		margin-top: 50px;}			
-/*  操作说明的css */
- 
-.caozuo{
- width:1024px;
-height:768px;
-background-color: blanchedalmond;
- margin:0 auto;
-	 
-}
-.awz{
-	
-width:500px;
-height:500px;
-background-color: #F0F8FF;
-margin:0 auto;
-}
+		/* background-color: blue; */
+		margin-top: 50px;
+		background-image:url(../img/back3.png);
+		text-align: center;
+		 
+		
+		}
+  p{ 
+	width:200px;
+	 line-height:100px;
+     font-family: "arial black";
+     font-size: 20px;
+	 margin:0 auto;
+  
+  
+ }
