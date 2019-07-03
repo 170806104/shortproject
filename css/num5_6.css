@@ -1,0 +1,40 @@
+ 
+.bg1{
+width:1024px;
+height:768px;  
+background-color: green;
+margin: 0 auto;
+padding-top:200px;
+background-image: url(../img/back11.jpg);
+background-repeat: no-repeat;
+background-position: top;
+background-size: cover;
+  
+ }	
+.wenzi1{
+	width:600px;	
+    margin-left:150px;	
+ 
+	
+}
+	
+	
+	/* 第二个页面 */
+ .bg2{
+ width:1024px;
+ height:768px;
+ 
+ margin:0 auto;
+ background-image: url(../img/back12.jpg);
+ background-repeat: no-repeat;
+ background-position: left;
+ background-size: cover;
+ }	
+ .wenzi2{
+ 	width:500px;	
+ 	height:140px;
+ 	background-color: white;
+    margin:0 auto;
+    text-align:center;
+ 	
+ }

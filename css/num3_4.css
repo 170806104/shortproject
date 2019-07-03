@@ -141,8 +141,42 @@ height:150px;
 background-color: #FF7F50; 
 float:left;
 }
-.changzhou{
-width:100px;
-height:150px;
- background-color: cornflowerblue;
+ .x {
+ 	margin-top:300px;
+ 	margin-left: 350px;
+ 	width: 100px;
+ 	height: 122px;
+ 	/* background-color: #7FFF00; */
+ 
+ background-size: cover;
+  position: absolute;
+ 	 
+ }
+
+ .x p {
+ 	position: relative;
+ 	/* margin: auto; */
+ 	font-size: 14px;
+ 	top:60px;
+ 	left:35px;
+	 
+ }
+  .s {
+ 	height:120px;
+   
+ 
+ 	width: 100px;
+ 	background-size: cover;
+ 	 
+ 
+ }
+.s p{ 
+	 position: relative;
+    margin:  auto ;
+	font-size: 14px;
+ 
+	top:70px;
+	left:40px;
+	 
 }
+ 
