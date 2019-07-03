@@ -3,14 +3,122 @@
 	<head>
 		<meta charset="utf-8">
 		<title></title>
-		 <link rel="stylesheet" type="text/css" href="css/num7_8.css">
+		 <link rel="stylesheet" type="text/css" href="css/pintu.css">
 	</head>
 	<body>
 	<div class="bg1">
-	<div class='pintu'>
+	<!-- <div class='pintu'>
 	<p>阅读下面这首诗，完成拼图！</p>
+	<p> 悯农
+
+【作者】李绅  【朝代】唐  
+ 春种一粒粟，秋收万颗子。 
+ 四海无闲田，农夫犹饿死。
+</p>
+	</div> -->
 	
-	</div>
+<div class="box">
+ 			<ul>
+ 				<li ondrop="drop(event)" ondragover="dropOver(event)">
+ 					<img src="img/img_07.jpg" alt="" width="124px" height="157px" draggable="true"
+ 					 id="drag1" ondragstart="dragStart(event)"
+ 					 ondragend="dragEnd(event)">
+ 				</li>
+ 				<li ondrop="drop(event)" ondragover="dropOver(event)">
+ 					<img src="img/img_03.jpg" alt="" width="124px" height="157px" draggable="true"
+ 					 id="drag2" ondragstart="dragStart(event)"
+ 					 ondragend="dragEnd(event)">
+ 				</li>
+ 				<li ondrop="drop(event)" ondragover="dropOver(event)">
+ 					<img src="img/img_06.jpg" alt="" width="124px" height="157px" draggable="true"
+ 					 id="drag3" ondragstart="dragStart(event)"
+ 					 ondragend="dragEnd(event)">
+ 				</li>
+ 				<li ondrop="drop(event)" ondragover="dropOver(event)">
+ 					<img src="img/img_08.jpg" alt="" width="124px" height="157px" draggable="true"
+ 					 id="drag4" ondragstart="dragStart(event)"
+ 					 ondragend="dragEnd(event)">
+ 				</li>
+ 				
+ 				<li ondrop="drop(event)" ondragover="dropOver(event)">
+ 					<img src="img/img_05.jpg" alt="" width="124px" height="157px" draggable="true"
+ 					 id="drag5" ondragstart="dragStart(event)"
+ 					 ondragend="dragEnd(event)">
+ 				</li>
+ 				<li ondrop="drop(event)" ondragover="dropOver(event)">
+ 					<img src="img/img_04.jpg" alt="" width="124px" height="157px" draggable="true"
+ 					 id="drag6" ondragstart="dragStart(event)"
+ 					 ondragend="dragEnd(event)">
+ 				</li>
+ 				
+ 				<li ondrop="drop(event)" ondragover="dropOver(event)">
+ 					<img src="img/img_09.jpg" alt="" width="124px" height="157px" draggable="true"
+ 					 id="drag7" ondragstart="dragStart(event)"
+ 					 ondragend="dragEnd(event)">
+ 			    </li>
+ 				
+ 				<li ondrop="drop(event)" ondragover="dropOver(event)">
+ 					<img src="img/img_02.jpg" alt="" width="124px" height="157px" draggable="true"
+ 					 id="drag8" ondragstart="dragStart(event)"
+ 					 ondragend="dragEnd(event)">
+ 				</li>
+                <li ondrop="drop(event)" ondragover="dropOver(event)">
+ 					<img src="img/img_01.jpg" alt="" width="124px" height="157px" draggable="true" 
+ 					id="drag9" ondragstart="dragStart(event)"
+ 					 ondragend="dragEnd(event)">
+ 				</li>
+        </ul>
+        </div>
+ 
+        <p id="success">拼图成功！</p>
+ 		<script>
+		var start_index;
+		var end_index;
+		function dragStart(event) {
+			console.log("dragStart: " + event.target.id);
+			start_index = event.target.id;
+		}
+		function dragEnd(event) {
+			event.preventDefault();
+		}
+		function dropOver(event) {
+			event.preventDefault();
+		}
+		function drop(event) {
+			event.preventDefault();
+			console.log("drop: "+event.target.id);
+			end_index = event.target.id;
+			// 交换id1和id2两个元素的attri属性值
+			exchange(start_index, end_index, "src");
+			// 检查拼图是否已完成，若完成显示对应文本
+			check();
+		}
+		function exchange(id1, id2, attri){
+			// 添加代码：交换id1和id2两个元素的attri属性值
+			ele1=document.getElementById(id1);
+			ele2=document.getElementById(id2);
+			var tmp_attri=ele1.getAttribute(attri);
+			ele1.setAttribute(attri,ele2.getAttribute(attri));
+			ele2.setAttribute(attri,tmp_attri);
+		}
+		
+		function check(){
+			// 添加代码：检查拼图是否已完成，若完成显示对应文本
+			var img_list=document.getElementsByTagName("img");
+			var img_src,dot_index,img_index;
+			for(var i=0;i<9;i++){
+					img_src=img_list[i].getAttribute("src");
+					dot_index=img_src.lastIndexOf(".");
+					img_index=Number(img_src.slice(dot_index-2,dot_index));
+					if (img_index !=i+1)return false;}
+			var success=document.getElementById("success");
+			success.style.display="block";
+		}
+	</script>
+
+ 
+  
+ </div>
 	<div> <a href="num66.html">上一关</a></div>
 	<div> <a href="num88.html">下一页</a></div>	
 	</div>

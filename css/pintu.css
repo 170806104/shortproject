@@ -1,0 +1,35 @@
+  .bg1{
+  width:1024px;
+  height:768px;  
+  background-color: green;
+  margin: 0 auto;
+  padding-top: 100px;
+ background-image:url(../img/back4.jpg);
+ background-size:cover;
+ background-position:left top;
+   } 
+
+*{
+ padding: 0px;
+ margin: 0px;
+}
+
+
+.box{ 
+	width:  372px;
+	 
+	 margin:0 auto; 
+	 margin-top: 100px;
+	}
+.box ul{
+	list-style: none;
+	float: left;
+}
+.box ul li{float: left;
+margin-top: -4px;
+ }
+ #success{
+	 display: none;
+	 text-align: center;
+	 
+ }
