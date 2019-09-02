@@ -1,48 +1,68 @@
- 
-   .last{width:1024px;
-          height:768px;
+ body {
+  	margin: 0;
+  }
+  a{
+  	text-decoration: none;
+  }
+   .last{width:980px;
+          height:650px;
  		 background-color: #00FFFF;
  		 padding-top:50px; 
  		 margin:0 auto;
-		  background-image:url(../img/back15.jpg);
+		  background-image:url(../img/bj.jpg);
 		 background-size: cover;
 		 background-position:top;
 		 
  		}
  
- 		
-.last_1{ width:150px;
+
+
+
+
+.last_1{width:250px;
         height:100px;
 		margin-left: auto;
 		margin-right: auto;
-		 
 		/* background-color: #7FFF00; */
-		background-image:url(../img/xin.png);
-	    background-repeat:no-repeat;
-	    background-position: center;
+		background-image:url(../img/back3.png);
 		text-align: center;
-	   }
- .last_2{width:150px;
+		 margin-top: 80px;
+		 
+	   }	
+
+ .last_2{width:250px;
         height:100px;
 		margin-left: auto;
 		margin-right: auto;
-		margin-top: 100px;
-		/* background-color: #7FFF00; */
-		background-image:url(../img/xin.png);
-		text-align: center; 
-		background-repeat:no-repeat; 
-		 background-position: center;
-	   }
- 		
-   p{ 
-	width:50px;
+		/* background-color: aqua ; */
+		margin-top: 50px;
+		background-image:url(../img/back3.png);
+		text-align: center;
+		 }	
+		
+ p{ 
+	 width:200px;
 	 line-height:100px;
      font-family: "arial black";
-     font-size:12px;
+     font-size: 20px;
 	 margin:0 auto;
-  
-  
- }
-
+	 font-weight: bold;
+  }
+  p a:link{text-decoration: none;}
+  p a:hover{color: #FF1493;}
+  .dong{
+	  width:170px;
+	  height:224px;
+	  text-align: center;
+	 background-image:url(../img/qq2.png);
+	  font-family: "arial black";
+	 font-size: 20px;
+	 font-weight: bold;
+	 color: gold;
+	 transition: all 3s;
+	  
+  }		
+ 
+.dong:hover{transform:translateX(800px);} 
   
  

@@ -4,19 +4,36 @@
 		<meta charset="utf-8">
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="css/num3_4.css"/>
+		<script type="text/javascript" src="js/my.js"></script>
 	</head>
 	<body>
 		
 		<div class="bg2">
 		<div class="wenzi2"> 
-		      <p> 1.请问在该段朗诵的是那首诗？</p>
+		      <p>4.请问在下边的音乐中唱的是那首诗？</p>
+			  <p><audio src="img/xiaochi.mp3" controls="controls"></audio> </p>
+			 
+			 
 		 	   
-			   <div class="xiaoxi"> A.小溪</div> 
-			   <div class="xiaoquan"> B.小泉</div> 
-			    <div class="xiaohe"> C.小河</div>
-			   <div class="xiaochi"> D.小池 </div>
-		<div class="x"><p><a href="num55.html">下一关</a></p></div>
-		<div class="s"><p><a href="num33.html">上一题</a></p></div>
+			   <div class="xiaoxi"> <input type="radio"  name="names">小溪</div> 
+			   <div class="xiaoquan"> <input type="radio" name="names">小泉</div> 
+			   <div class="xiaohe"> <input type="radio"  name="names">小河</div>
+			   <div class="xiaochi"> <input type="radio" name="names">小池</div>
+			   
+			   <div class="qingchu"></div>
+			   <input type="button" value="确定" onclick="fourth()"> 
+		<div class="xia1"><p><a href="num55.html">NEXT</a></p></div>
+		 <div class="tishi1"><p>提示</p>
+		 <div class="context1">
+			<div id="ts2">
+	泉眼无声惜细流，树阴照水爱晴柔。<br>
+    小荷才露尖尖角，早有蜻蜓立上头。<br>
+	该音频朗诵的是杨万里的《小池》。<br>
+	小朋友们好听吗？<br>
+	</div>   
+		 </div>
+		 </div>
+		<div class="shang1"><p><a href="num33.html">LAST</a></p></div>
 		</div>
 		</div>
 	</body>

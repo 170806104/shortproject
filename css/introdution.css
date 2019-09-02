@@ -1,28 +1,47 @@
 /*  操作说明的css */
- 
+ *{padding: 0 ;
+ margin:0  } 
 .caozuo{
- width:1024px;
-height:768px;
+width:980px;
+height:650px;
 background-color: blanchedalmond;
  margin:0 auto;
- background-image:url(../img/back4.jpg);
+ background-image:url(../img/bj.jpg);
  background-position: right;
  background-repeat: no-repeat;
  background-size: cover;
- padding-top:200px;
+ padding-top:60px;
 	 
 }
 .awz{
-width:400px;
-height:250px;
-background-color:white;
-text-align: center;
-padding-top:20px;
+width:408px;
+height:190px;
+ background-image:url(../img/caozuo.png);
+   
+padding-top:80px;
+line-height:20px;
 margin:0 auto;
-}
- 
- p{   font-size:16px;
-	  line-height:30px;
-	  color: deeppink;
+transition:0.6s;
+
  }
+.awz:hover{  
  
+	transform:translateY(100px);
+ 
+ 	 
+	
+} 
+  #ts{
+ 	 width:300px;
+ 	 height:150px;
+ 	 margin:0 auto;
+ 	 font-family:宋体;
+ 	 font-weight:bolder;
+     line-height:26px;
+	  text-indent: 2em;
+	 
+	 
+ 	 
+   }
+a:link{text-decoration: none;}
+a:hover{color: #FF1493;}

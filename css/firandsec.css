@@ -1,21 +1,19 @@
- 
-  .first{width:1024px;
-         height:768px;
-		 background-color: #00FFFF;
-		 padding-top:60px; 
+*{padding: 0 ;
+margin:0  } 
+ .first{width:980px;
+         height:650px;
+		 padding-top:40px; 
 		 margin:0 auto;
-		 background-image:url(../img/back.jpg);
+		 background-image:url(../img/bj.jpg);
 		 background-position:right;
 		 background-size: cover;
 		  background-repeat: no-repeat;
-		 
-		 
 		}
- .first_1{width:500px;
-         height:300px;
+ .first_1{width:470px;
+         height:250px;
 		 margin-right: auto;
 		 margin-left: auto;
-		 background-image:url(../img/back1.png);
+		 background-image:url(../img/back03.png);
 		/* margin-top:50px; */
 		 }
  .first_2 {width:250px;
@@ -23,29 +21,41 @@
  		margin-left: auto;
  		margin-right: auto;
  		/* background-color: aqua ; */
- 		margin-top:-50px;
+ 		margin-top:20px;
  		background-image:url(../img/back3.png);
  		text-align: center;
  		 }	
 .first_2 p{      
-        font-size:20pt;
+        font-size:20px;
 		font-family: "arial narrow";
 		font-weight: bold;
-		/* text-align: center;
-		margin:0 auto;
-		 */
-		  position: relative;
-    margin:  auto; 
+		 
+		 position: relative;
+        margin:  auto; 
 		 
    }
+ .first_2 p a:link{text-decoration: none;}
+ .xd{
+	width:180px;
+	height:200px;
+	 background-image:url(../img/xdd4.png);
+	margin-left:400px;
+	margin-top:50px;
+	 transition: all 3s;
+ }
+ .xd:hover{
+transform:translateY(-210px); 
+ 
+ 
+ }
         /* 第二个页面的css */
 		
-.se_00{width:1024px;
-       height:768px;
+.se_00{width:980px;
+       height:650px;
        background-color: #FF7F50;
-	   padding-top:200px;
+	   padding-top:40px;
 	    margin:0 auto;
-		background-image:url(../img/back2.jpg);
+		background-image:url(../img/bj.jpg);
 		 background-position:right;
 		background-size: cover;
 		 background-repeat: no-repeat;
@@ -55,6 +65,7 @@
         height:100px;
 		margin-left: auto;
 		margin-right: auto;
+		
 		/* background-color: #7FFF00; */
 		background-image:url(../img/back3.png);
 		text-align: center; 
@@ -83,11 +94,13 @@
 		
 		}
   p{ 
-	width:200px;
+	 width:200px;
 	 line-height:100px;
      font-family: "arial black";
      font-size: 20px;
 	 margin:0 auto;
-  
-  
- }
+	 font-weight: bold;
+  }
+  p a:link{text-decoration: none;}
+  p a:hover{color: #FF1493;}
+ 

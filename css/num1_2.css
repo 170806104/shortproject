@@ -1,46 +1,54 @@
-body {
- 	margin: 0;
- }
-
+*{padding: 0 ;
+margin:0  } 
+a{
+	text-decoration: none;
+	
+}
  .bg {
- 	width: 1024px;
- 	height: 768px;
+ 	width: 980px;
+ 	height:650px;
  	background-color: #FF7F50;
  	margin: 0 auto;
- 	background-image: url(../img/back5.jpg);
+ 	background-image: url(../img/bj.jpg);
  	background-repeat: no-repeat;
  	background-position: right;
  	background-size: cover;
- 	padding-top: 50px;
+ 	padding-top:40px;
  }
 
  .video {
  	width: 500px;
- 	height: 250px;
- 	background-color: #7FFF00;
+ 	height:300px;
+ 	background-image:url(../img/sx.jpg);
+	background-color: #7FFF00;
  	margin: 0 auto;
-
+   transition:all 0.6s;
  }
+ .video:hover{ 
+	 transform:translateX(100px);
+	 }
 
  .wenzi {
+	 
  	width: 500px;
  	margin: 0 auto;
-
+	 
+     
  }
 
 
 
 
  .xia {
- 	margin-top: 50px;
- 	margin-left: 450px;
+ 	margin-top: 30px;
+ 	margin-left:450px;
  	width: 50px;
  	height: 50px;
  	/* background-color: #7FFF00; */
- 	background-image:url(../img/next.png);
- background-size: cover;
-  position: absolute;
- 	background-image:url(../img/next.png);
+ 	 
+    background-size: cover;
+    position: absolute;
+ background-image: url(../img/next.png);
  }
 
  .xia p {
@@ -48,12 +56,12 @@ body {
  	margin: auto;
  	font-size: 14px;
  	top: 15px;
- 	left: 8px;
+ 	left: 10px;
  }
   .shang {
  	height: 50px;
  	background-image: url(../img/next.png);
-    margin-top: 50px;
+    margin-top: 30px;
  	width: 50px;
  	background-size: cover;
  	position: absolute;
@@ -65,74 +73,111 @@ body {
 	 position: relative;
     margin:  auto ;
 	font-size: 14px;
- 
+  
 	top:15px;
 	left:10px;
 	 
 }
+
+
+ 
+  .tishi {
+ 	height: 50px;
+	background-image: url(../img/next.png);
+    margin-top: 30px;
+	 margin-left:220px;
+ 	width: 50px;
+ 	background-size: cover;
+ 	position: absolute;
+ }
+ 
+  .tishi:hover .context{
+ 	 
+  display: block;
+  } 
+   
+ .tishi .context{
+ 	
+ display: none;
+ }
+ .context{
+ 	width: 400px;
+ 	height:130px;
+ 	 
+ 	margin-top:30px;
+ 	margin-left:-170px;
+	padding-top:10px;
+	border: 2px solid #FF1493;
+	border-radius:20px;
+	
+ } 
+.tishi p{ 
+	position: relative;
+    margin:  auto ;
+	font-size: 14px;
+    top:15px;
+	left:12px;
+}
+ 
+#ts1{
+	 width:360px;
+	 height:160px;
+	 margin:0 auto;
+	 text-decoration: underline;
+	 color:blue;
+	 font-family:宋体;
+	 font-weight:bolder;
+     line-height:30px ;
+	 text-indent: 2em;
+  }
+
+
+
+
 /* */
  /* 第二题 */
 
 .bg2{
-width:1024px;
-height:768px;
+width:980px;
+height:650px;
 background-color:aliceblue;
  margin:0 auto;
- background-image:url(../img/back6.jpg);
+ background-image:url(../img/bj.jpg);
  background-size: cover;
  background-position:bottom;
- padding-top: 50px;
+ padding-top: 40px;
  
 }
 .video2{
    width:500px;	
    height:250px;
-   background-color: brown;
+   background-image:url(../img/ww.png);
+   background-position: center;
    margin:0 auto;
-   
-	
+   transition:all 0.6s; 
+   margin-bottom:20px;
 }
+ .video2:hover{ 
+	 transform:scale(1.2);
+	 }
 .wenzi2{
+
 	width:500px;	
     margin:0 auto;
-	color: white;	
+	 	
 	}
- .x {
- 	margin-top:150px;
- 	/* margin-left: 450px; */
- 	width: 50px;
- 	height: 50px;
- 	/* background-color: #7FFF00; */
- 	background-image:url(../img/next.png);
- background-size: cover;
-  position: absolute;
- 	background-image:url(../img/next.png);
- }
-
- .x p {
- 	position: relative;
- 	margin: auto;
- 	font-size: 14px;
- 	top: 15px;
- 	left: 8px;
- }
-  .s {
- 	height: 50px;
- 	background-image: url(../img/next.png);
-    margin-top: 50px;
- 	width: 50px;
- 	background-size: cover;
- 	position: absolute;
+.jiange{width: 500px;
+	      height: 30px;
+		  background-color: #000000;}
+ #ts2{
+ 	 width:360px;
+ 	 height:160px;
+ 	 margin:0 auto;
+ 	 text-decoration: underline;
+ 	 color:blue;
+ 	 font-family:宋体;
+ 	 font-weight:bolder;
+      line-height:30px ;
+ 	 text-indent: 2em;
+   }
  
- 
- 
- }
-.s p{ 
-	 position: relative;
-    margin:  auto ;
-	font-size: 14px;
- 
-	top:15px;
-	left:10px;
-	 
-}

@@ -1,12 +1,15 @@
- 
- 
+*{padding: 0 ;
+margin:0  } 
+a{
+	text-decoration: none;
+}
 .bg1{
-width:1024px;
-height:768px;  
+width:980px;
+height:650px;  
 /* background-color: #0000FF; */
 margin: 0 auto;
-padding-top: 100px;
- background-image:url(../img/back9.jpg);
+padding-top: 50px;
+ background-image:url(../img/bj.jpg);
  background-size: cover;
  background-position:left;
  
@@ -16,62 +19,79 @@ padding-top: 100px;
     margin:0 auto;	
  
 	
-}	
+}
 .suzhou{
-margin-top: 100px; 
+margin-top:50px;
 width:100px;
 height:150px;
 background-color: #A52A2A;
 float:left;
+text-align: center;
+background-image:url(../img/sz.png);
+ 
+ 
+	
 }	
 .hangzhou{
-	margin-top: 100px; 
+margin-top:50px;
+	margin-left: 20px;
+width:100px;
+height:150px;
+background-color:blue;
 float:left;
-width:100px;
-height:150px;
- background-color: #00FFFF;
-}
+text-align: center;
+background-image: url(../img/hz.png);
+}	
 .yangzhou{
-	margin-top: 100px; 
+margin-top:50px;
+margin-left: 20px;
 width:100px;
 height:150px;
-background-color: #FF7F50;
- float:left; left
+  float:left;
+ text-align: center;
+ background-image:url(../img/yz.png);
 }
 .lanzhou{
-	margin-top: 100px; 
+	margin-top:50px;
+margin-left: 20px;
 width:100px;
 height:150px;
-background-color: cornflowerblue;
-float: left;
-
+background-color: #FF7F50; 
+float:left;
+text-align: center;
+ background-image:url(../img/lz.png);
 }
-
-.xia {
- 	margin-top:300px;
- 	margin-left: 350px;
- 	width: 100px;
- 	height: 122px;
+ 	
+	
+ 
+ .qingchu{clear:both;}
+ 
+ .xia {
+ 	margin-top: 50px;
+ 	margin-left: 400px;
+ 	width: 50px;
+ 	height: 50px;
  	/* background-color: #7FFF00; */
- 	background-image:url(../img/ali1.png);
+ 	background-image:url(../img/next.png);
  background-size: cover;
   position: absolute;
- 	 
+ 	background-image:url(../img/next.png);
  }
 
  .xia p {
  	position: relative;
- 	/* margin: auto; */
+ 	  left:10px;
  	font-size: 14px;
- 	top:60px;
- 	left:35px;
-	 
+ 	top: 15px;
+	
+	
+ 	 
  }
   .shang {
- 	height:120px;
- 	background-image: url(../img/ali2.png);
-    margin-top:300px;
- 	width: 100px;
+ 	height: 50px;
+ 	background-image: url(../img/next.png);
+    margin-top: 50px;
+ 	width: 50px;
  	background-size: cover;
  	position: absolute;
  
@@ -80,103 +100,231 @@ float: left;
  }
 .shang p{ 
 	 position: relative;
-    margin:  auto ;
+     
 	font-size: 14px;
- 
-	top:70px;
-	left:40px;
+ left:10px;
+	top:15px;
+	 
 	 
 }
+
+
+ 
+  .tishi {
+ 	height: 50px;
+ 	background-image: url(../img/next.png);
+    margin-top: 50px;
+	 margin-left:210px;
+ 	width: 50px;
+ 	background-size: cover;
+ 	position: absolute;
+    
+ 
+ 
+ }
+ 
+ 
+  .tishi:hover .context{
+ 	 
+  display: block;
+  } 
+   
+ .tishi .context{
+ 	
+ display: none;
+ }
+ .context{
+ 	width: 400px;
+ 	height: 150px;
+  
+	border:2px solid  blueviolet;
+    border-radius:20px;
+ 	margin-top:30px;
+ 	margin-left:-185px;
+	padding-top:10px;
+	border-color:red;
+ } 
+.tishi p{ 
+	 position: relative;
+     
+	font-size: 14px;
+    left:12px;
+	top:15px;
+	 
+	 
+}
+#ts1{
+	 width:360px;
+	 height:150px;
+	 margin:0 auto;
+	 text-decoration: underline;
+	 color:blue;
+	 font-family:宋体;
+	 font-weight:bolder;
+     line-height:30px ;
+	 text-indent: 2em;
+  }
+
+
+
  
 /* 第二个页面 */
  
 .bg2{
-width:1024px;
-height:768px;
+width:980px;
+height:690px;
 /* background-color: cornsilk; */
 margin:0 auto;
- background-image:url(../img/back10.jpg);
+ background-image:url(../img/bj.jpg);
  background-size: cover;
  background-position:bottom;
 }	
 .wenzi2{
 	width:500px;	
-	height:200px;
+	height:150px;
 	background-color: white;
     margin:0 auto;
 	text-align: center;
-	
+	 background-image: url(../img/xcbj1.jpg);
+	padding-top:20px;
 }	
 
 .xiaoxi{
-margin-top: 200px;
+margin-top:150px;
 width:100px;
 height:150px;
-background-color: #A52A2A;
-float:left;
  
-	
+float:left;
+margin-left:20px; 
+background-image:url(../img/xx.png);
 }	
 .xiaoquan{
-margin-top: 200px;
+margin-top: 150px;
 	margin-left: 20px;
 width:100px;
 height:150px;
-background-color:blue;
+background-image:url(../img/xq.png);
 float:left;
 }	
 .xiaohe{
-	margin-top: 200px;
+	margin-top: 150px;
 margin-left: 20px;
 width:100px;
 height:150px;
- background-color: #00FFFF;
+ background-image:url(../img/xh.png);
  float:left;
 }
 .xiaochi{
-	margin-top: 200px;
+	margin-top: 150px;
 margin-left: 20px;
 width:100px;
 height:150px;
-background-color: #FF7F50; 
+ background-image:url(../img/xc1.png);
 float:left;
 }
- .x {
- 	margin-top:300px;
- 	margin-left: 350px;
- 	width: 100px;
- 	height: 122px;
- 	/* background-color: #7FFF00; */
  
- background-size: cover;
-  position: absolute;
- 	 
- }
-
- .x p {
- 	position: relative;
- 	/* margin: auto; */
+ 
+  .xia1 {
+  	margin-top: 50px;
+  	margin-left: 430px;
+  	width: 50px;
+  	height: 50px;
+  	/* background-color: #7FFF00; */
+  	background-image:url(../img/next.png);
+  background-size: cover;
+   position: absolute;
+  	background-image:url(../img/next.png);
+  }
+ 
+  .xia1 p {
+  	position: relative;
+  	 left:4px;
+  	font-size: 14px;
+  	top: 15px;
+	
+ 	
+ 	
+  	 
+  }
+   .shang1 {
+  	height: 50px;
+  	background-image: url(../img/next.png);
+     margin-top: 50px;
+  	width: 50px;
+  	background-size: cover;
+  	position: absolute;
+  
+  
+  
+  }
+ .shang1 p{ 
+ 	 position: relative;
+      
  	font-size: 14px;
- 	top:60px;
- 	left:35px;
-	 
- }
-  .s {
- 	height:120px;
-   
- 
- 	width: 100px;
- 	background-size: cover;
+  left:4px;
+ 	top:15px;
  	 
- 
+ 	 
  }
-.s p{ 
-	 position: relative;
-    margin:  auto ;
-	font-size: 14px;
  
-	top:70px;
-	left:40px;
-	 
-}
  
+  
+   .tishi1 {
+  	height: 50px;
+  	background-image: url(../img/next.png);
+     margin-top: 50px;
+ 	 margin-left:210px;
+  	width: 50px;
+  	background-size: cover;
+  	position: absolute;
+     
+  
+  
+  }
+  
+   .tishi1 .context1{
+  	
+  display: none;
+  }
+   .tishi1:hover .context1{
+  	 
+   display: block;
+   } 
+    
+ 
+  .context1{
+  	width: 400px;
+  	height: 150px;
+   
+ 	border:2px solid  blueviolet;
+     border-radius:20px;
+  	margin-top:30px;
+  	margin-left:-165px;
+ 	padding-top:10px;
+ 	border-color:red;
+  } 
+ .tishi1 p{ 
+ 	 position: relative;
+      
+ 	font-size: 14px;
+     left:2px;
+ 	top:15px;
+ 	 
+ 	 
+ }
+ 
+ 
+ 
+ 
+ 
+ #ts2{
+ 	 width:360px;
+ 	 height:150px;
+ 	 margin:0 auto;
+ 	 text-decoration: underline;
+ 	 color:blue;
+ 	 font-family:宋体;
+ 	 font-weight:bolder;
+      line-height:30px ;
+ 	 
+   }
