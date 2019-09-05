@@ -166,7 +166,7 @@ text-align: center;
   }
  #mydiv{
 	 width:333px; height:250px;
-	 left:350px; top:75px; 
+	 left:500px; top:75px; 
 	 background-image:url(../img/hdzq.png);
 	 position:absolute; z-index:2;
  
@@ -175,7 +175,7 @@ text-align: center;
 }
  #mydiv2{
 	 width:333px; height:250px;
-	 left:350px; top:75px; 
+	 left:500px; top:75px; 
 	 background-image:url(../img/hdcw.png);
 	 position:absolute; z-index:3;
  }
@@ -185,7 +185,7 @@ text-align: center;
  
 .bg2{
 width:980px;
-height:690px;
+height:710px;
 /* background-color: cornsilk; */
 margin:0 auto;
  background-image:url(../img/bj.jpg);

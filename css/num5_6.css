@@ -120,7 +120,7 @@ display: none;
  
   #mydiv{
  	 width:333px; height:250px;
- 	 left:350px; top:75px; 
+ 	 left:500px; top:75px; 
  	 background-image:url(../img/hdzq.png) ;
  	 position:absolute; z-index:2;
   
@@ -129,7 +129,7 @@ display: none;
  }
   #mydiv2{
  	 width:333px; height:250px;
- 	 left:350px; top:75px; 
+ 	 left:500px; top:75px; 
  	 background-image:url(../img/hdcw.png) ;
  	 position:absolute; z-index:3;
  }
